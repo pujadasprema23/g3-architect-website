@@ -55,7 +55,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.banner-description{
+.text-light-gray{
     color: var(--Dark-02, #424242);
 font-size: 18px;
 font-style: normal;
@@ -101,7 +101,7 @@ line-height: 26px;
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /* teams styles */
 .teams-container{
@@ -127,4 +127,34 @@ main{
 .teams-title .text-features{
     color: #FF900E;
     font-weight: 700;
+}
+/* responsive media query */
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav,
+    .teams-container
+    {
+        flex-direction: column;
+    }
+
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+/* tablet or medium device */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav, .teams-container{
+        flex-direction: column;
+    }
 }
