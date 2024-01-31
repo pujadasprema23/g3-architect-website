@@ -183,6 +183,23 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 .sponsors-img-container img {
     width: 165px;
 }
+/* footer styles  */
+.footer{
+  border-radius: 8px;
+background: #FFF4E7;
+width: 1440px;
+height: 100px;
+margin: 130px auto;
+}
+.footer-title{
+  color: #424242;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+position: relative;
+top: 40px;
+m
+}
 /* responsive media query */
 
 /* mobile device */
